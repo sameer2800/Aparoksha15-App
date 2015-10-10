@@ -1,0 +1,1 @@
+3..., 2..., 1..., Code! Battle with TLE and Wrong output to grrab the crown of Ultimate Coder. Al-Khwarizm is the annual Online Programming contest conducted on Hacker Earth, that draws participation from all corners of the World. Event will be held on HackerEarth platform and having HackerEarth User ID is a must.

@@ -1,0 +1,1 @@
+Get a feel of what real development feels like. Take a product already developed. Improve it, optimize it, debug, do what it take to make it stand out. The product is android based.

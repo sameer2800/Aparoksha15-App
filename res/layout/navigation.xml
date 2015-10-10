@@ -1,0 +1,119 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Framelayout to display Fragments -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/common_background_1"
+        android:orientation="vertical" >
+
+        <!-- android:background="@drawable/redv_bg" -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15dp"
+                    android:paddingBottom="40dp" >
+
+                    <TextView
+                        android:id="@+id/hometext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/textviewhome2_bg"
+                        android:gravity="center"
+                        android:text="About Us"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/hometext2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/textviewhome2_bg"
+                        android:gravity="center"
+                        android:text="Inspired by a massive participation in technical events of Effervescence,we present 
+					 our first exclusive TECHNICAL FEST Aparoksha, a horizon of vision and technology.
+					At a platform for young minds to develop new skills  exhibit their talent, the thrill is expected
+					 to cross the barrier with many electrifying events in store. So gear up yourself to seek, explore 
+					 and spread through APAROKSHA"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/hometext3"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/textviewhome2_bg"
+                        android:gravity="center"
+                        android:text="Updates"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/hometext4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/textviewhome2_bg"
+                        android:paddingBottom="40dp"
+                        android:text="1)update 1 \n\n 2)update2 \n\n 3) update 3  \n\n 4) update 4 \n"
+                        android:textColor="@android:color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageButton
+                android:id="@+id/floatingbutton_fb"
+                style="@style/floatbutton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/facebook"
+                android:text="New Button" />
+
+            <ImageButton
+                android:id="@+id/floatingbutton_web"
+                style="@style/floatbutton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/website"
+                android:text="New Button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Listview to display slider menu -->
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/image_drawer_list"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+
+</android.support.v4.widget.DrawerLayout>

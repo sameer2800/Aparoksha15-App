@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/redv_bg" >
+	
+    
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="vertical"  >
+            
+    <ScrollView 
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+   <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hometext1"
+        
+        android:layout_marginTop="15dp"
+      android:background="@drawable/textviewhome_bg"
+       	android:text="About Us"
+       	android:textSize="20dp"
+       	android:textColor="@android:color/holo_orange_dark"
+       	android:gravity="center"
+         />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         android:id="@+id/hometext2"
+        android:background="@drawable/textviewhome2_bg"
+       	android:text="Inspired by a massive participation in technical events of Effervescence,we present 
+					 our first exclusive TECHNICAL FEST Aparoksha, a horizon of vision and technology.
+					At a platform for young minds to develop new skills  exhibit their talent, the thrill is expected
+					 to cross the barrier with many electrifying events in store. So gear up yourself to seek, explore 
+					 and spread through APAROKSHA"
+       	android:gravity="center"
+       	android:textSize="15dp"
+       	android:textColor="@android:color/white"
+        android:layout_marginTop="14dp" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:id="@+id/hometext3"
+        android:background="@drawable/textviewhome_bg"
+       	android:text="Updates"
+       		android:textSize="20dp"
+       	android:gravity="center"
+       	
+       	android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginTop="14dp" />
+		
+    <TextView
+        android:layout_width="match_parent"
+         android:id="@+id/hometext4"
+         android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textviewhome2_bg"
+       	android:text="1)update 1 \n\n 2)update2 \n\n 3) update 3  \n\n 4) update 4 \n" 
+       	
+        android:layout_marginTop="14dp" />
+    
+    </LinearLayout>
+    	</ScrollView>
+    	
+    
+    <ImageButton
+                android:id="@+id/floatingbutton12"
+                style="@style/floatbutton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="24dp"
+                
+                android:background="@drawable/fb_selector"
+                android:src="@drawable/fb_icon"
+                android:text="New Button" />
+    
+     <ImageButton
+                android:id="@+id/floatingbutton13"
+                style="@style/floatbutton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="24dp"
+                
+                android:background="@drawable/web_selector"
+                android:src="@drawable/web_icon"
+                android:text="New Button" />
+    
+    	</RelativeLayout>
+</LinearLayout>

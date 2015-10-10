@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+  <LinearLayout 
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+      
+      <ImageView 
+          android:id="@+id/favourite_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:paddingRight="15dp"
+        android:background="@drawable/favourite"
+          android:layout_marginTop="5dp" 
+          />
+
+      <TextView
+          android:id="@+id/favourite_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="7dp"
+          android:layout_weight="0.29"
+          android:gravity="center"
+          android:text="Make  favourite"
+          android:textSize="20sp" />
+
+      	<CheckBox
+      	    android:id="@+id/favourite_checkbox"
+      	    style="?android:attr/starStyle"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	     android:clickable="true"
+       		 android:focusable="true" 
+      	    android:layout_marginTop="5dp"
+      	    android:layout_marginRight="5dp"
+      	   
+      	     />
+      
+  </LinearLayout>  
+    
+     
+  <LinearLayout 
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+      
+      <ImageView 
+          android:id="@+id/reminder_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:paddingRight="15dp"
+        android:background="@drawable/reminder"
+          android:layout_marginTop="5dp" 
+          />
+      	
+      	<TextView
+      	    android:id="@+id/reminder_text"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_marginTop="5dp"
+      	    android:layout_weight="0.4"
+      	    android:gravity="center"
+      	    android:text="Remind me later"
+      	    android:textSize="20sp" />
+
+      	<CheckBox
+      	    android:id="@+id/reminder_checkbox"
+      	    style="?android:attr/starStyle"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_marginRight="5dp"
+      	    android:layout_marginTop="5dp"
+      	    android:clickable="true"
+      	    android:focusable="true"
+      	    android:textSize="30sp" 
+      	    />
+      
+  </LinearLayout>  
+    
+    
+
+</LinearLayout>

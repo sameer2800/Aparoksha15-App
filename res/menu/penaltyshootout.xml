@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aparoksha.main.Penaltyshootout" >
+
+    <item
+        android:id="@+id/events_actionMap"
+        android:icon="@drawable/icon_google_map"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Location"/>
+    <item
+        android:id="@+id/events_actionRegister"
+        android:icon="@drawable/icon_register_5"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Register"/>
+
+</menu>

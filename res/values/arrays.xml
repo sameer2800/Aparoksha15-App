@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<array name="entries">
+		<item>@drawable/cat</item>		
+		<item>@drawable/icon_robot</item> 		
+		<item>@drawable/monkey</item>		
+		<item>@drawable/mouse</item>
+		<item>@drawable/panda</item>		
+		<item>@drawable/rabbit</item>
+		<!-- <item>@drawable/icon_network</item>	-->					
+	</array>	
+	<array name="names">
+	    <item>Development</item>
+	    <item>Robotics</item>
+	    <item>Networking</item>
+	    <item>Electronics</item>
+	    <item>Coding</item>
+	    <item>Misc</item>
+	    <!--  <item> Networking </item>-->
+	</array>
+</resources>

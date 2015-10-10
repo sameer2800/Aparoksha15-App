@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- A COLOR NAMED background with value #FFFFFF in #RRGGBB hex value -->
+    <color name="list_background">#37b2c4</color>
+
+    <!-- A COLOR NAMED mycolor with value #FFF in #RGB value -->
+    <color name="list_divider">#FFF</color>
+    <!-- A COLOR NAMED mycolor2 with value #00FFFFFF in #ARGB [A= ALPHA]value -->
+    <color name="counter_text_bg">#00FFFFFF</color>
+    <color name="list_background_pressed">#FFF</color>
+    <color name="list_text">#b60f2e</color>
+    <color name="some_color">#b60f2e</color>
+    <color name="actionbar_text">#00FFFFFF</color>
+
+</resources>

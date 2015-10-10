@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pj="http://schemas.android.com/apk/res/com.aparoksha.main"
+    xmlns:bm="http://com.aparoksha.main"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:background="@drawable/backy"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/carousel_background"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:paddingTop="80sp"
+                android:id="@+id/carousel_selected_item"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="text"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:gravity="top"
+            android:padding="5dip" >
+
+            <com.carouseldemo.controls.Carousel
+                android:id="@+id/carousel"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:animationDuration="200"
+                 
+                pj:Items="@array/entries"
+                
+                pj:SelectedItem="0"
+                />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/image_drawer_list"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />
+
+</android.support.v4.widget.DrawerLayout>

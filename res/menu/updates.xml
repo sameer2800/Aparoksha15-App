@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aparoksha.main.Updates" >
+
+    <item
+        android:id="@+id/action_updates"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/refresh"
+        android:title="Updates"/>
+
+</menu>

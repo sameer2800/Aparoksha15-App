@@ -1,0 +1,1 @@
+Ever wondered why those simplest of LED Flashers don't work as per your expectation? Well, ignorance and misinterpretation is at fault. It is time to look down to an already made circuit and point out the bugs in it. This event is all about circuit debugging.

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aparoksha.main"
+    android:versionCode="3"
+    android:versionName="3.0"
+    
+        android:debuggable="false" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <application
+        android:icon="@drawable/aparoksha_logo"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.aparoksha.main.MainActivity"
+            android:label="Events By Category"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.mainactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Home_test"
+            android:label="home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.home_test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Homepage"
+            android:label="@string/title_activity_homepage"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.homepage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Navigationdrawer"
+            android:label="Home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.navigationdrawer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Roboticsevents"
+            android:label="Robotics"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.roboticsevents" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Events"
+            android:label="@string/title_activity_penaltyshootout"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomActionBarTheme" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.events" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.EventsByDay"
+            android:label="Events By Day"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.eventsbyday" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Display_notification"
+            android:label="title_activity_events_by_day"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.Display_notification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Favorites"
+            android:label="@string/title_activity_favorites"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.favorites" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.AppDevelopers"
+            android:label="@string/title_activity_app_developers"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.app_developers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Register"
+            android:label="Register "
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.Register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Login"
+            android:label="Login"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Day_1"
+            android:label="title_activity_day_1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Day_2"
+            android:label="title_activity_day_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Day_3"
+            android:label="title_activity_day_3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Day_Pre"
+            android:label="pre_day"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.aparoksha.main.AlarmReceiver" >
+        </receiver>
+
+        <service
+            android:name="com.aparoksha.main.NotificationService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.aparoksha.main.WebPage"
+            android:label="@string/title_activity_web_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.aparoksha.main.Organizers"
+            android:label="Contact Us"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.aparoksha.main.organizers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

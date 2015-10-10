@@ -1,0 +1,1 @@
+This competition is all about perfection and efficiency. A single wrong move and you lose. The task of this competition is to instruct your robot to follow a line and cover it in shortest time possible acting as a line follower.

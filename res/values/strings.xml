@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aparoksha</string>
+    <string name="title_activity_splash">Aparoksha</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string-array name="multi">
+        <item> Upload</item>
+        <item>sub-2</item>
+        <item>sub-3</item>
+        <item> sub-4</item>
+        <item>sub-5</item>
+        <item>sub-6</item>
+        <item>sub-7</item>
+    </string-array>
+    <string-array name="rare">
+        <item> part-1</item>
+        <item> part-2</item>
+        <item> part-3</item>
+        <item> part-4</item>
+        <item> part-5</item>
+        <item> part-6</item>
+        <item> part-7</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item></item>
+        <item>Home</item>
+        <item>Events By Day</item>
+        <item>Events By Category</item>
+        <item>Favorites</item>
+        <item>Login / Logout</item>
+        <item>Register</item>
+        <item>Contact Us</item>
+        <item>App Developers</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_subscripts">
+        <item></item>
+        <item>Know Aparoksha</item>
+        <item>Day to Day account</item>
+        <item>Browse what excites You</item>
+        <item>Your Heart\'s Desire</item>
+        <item>Ready to Join?</item>
+        <item>Enroll Yourself</item>
+        <item>Those who make it Possible</item>
+        <item>Comments, Suggestions</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/icon_home</item>
+        <item>@drawable/icon_home</item>
+        <item>@drawable/icon_events_by_day</item>
+        <item>@drawable/icon_events_by_category</item>
+        <item>@drawable/icon_favorites</item>
+        <item>@drawable/icon_login</item>
+        <item>@drawable/icon_register</item>
+        <item>@drawable/icon_organizers</item>
+        <item>@drawable/icon_developers</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_navigationdrawer">Home</string>
+    <string name="title_activity_roboticsevents">Robotics Events</string>
+    <string name="title_activity_penaltyshootout">Penaltyshootout</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_app_developers">App Developers</string>
+    <string name="title_activity_web_page">Aparoksha Web</string>
+    <string name="title_activity_home_test">Home_test</string>
+
+</resources>
